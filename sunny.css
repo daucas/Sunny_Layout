@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+h1,h2,h3,h5 {
+    font-family: 'fraunces', serif;
+    font-weight: 900px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+header {
+    background: url(./images/desktop/image-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: bottom;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li :not (:last-child){
+    margin-right: 40px;
+}
+.nav ul li a {
+text-decoration: none;
+color: white;
+}
